@@ -1,0 +1,43 @@
+.hero {
+  padding: 40px 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--foreground);
+}
+
+/* Desktop layout */
+@media (min-width: 768px) {
+  .hero {
+    padding: 50px 0;
+  }
+
+  .title {
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+  }
+
+  .description {
+    font-size: 1.25rem;
+    padding: 0 40px;
+  }
+}

@@ -1,0 +1,153 @@
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 60px 20px 20px 20px;
+  margin-top: auto;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+}
+
+.heading {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 14px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.subscribeBox {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+}
+
+.subscribeBtn {
+  padding: 12px 24px;
+  background: #fff;
+  color: #000;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.currency {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.smallText {
+  font-size: 12px;
+  color: #ccc;
+}
+
+.divider {
+  border: none;
+  border-top: 1px solid #fff;
+  margin: 20px 0 40px 0;
+}
+
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.linkColumn {
+  flex: 1;
+  min-width: 200px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  font-size: 14px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.list li:hover {
+  text-decoration: underline;
+}
+
+.socialIcons {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.iconCircle {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.paymentIcons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.payIcon {
+  background: #fff;
+  color: #000;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 60px;
+  color: #ccc;
+}
+
+/* Mobile Layout */
+
+@media (max-width: 768px) {
+  .topSection,
+  .bottomSection {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

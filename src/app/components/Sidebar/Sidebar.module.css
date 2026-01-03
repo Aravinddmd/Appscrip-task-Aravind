@@ -1,0 +1,74 @@
+.sidebar {
+  width: 300px;
+  flex-shrink: 0; /* Prevents the sidebar from being so small  */
+  display: flex;
+  flex-direction: column;
+}
+
+.customizable {
+  padding: 20px 0;
+  border-top: 1px solid var(--gray-light);
+  border-bottom: 1px solid var(--gray-light);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.filterSection {
+  border-bottom: 1px solid var(--gray-light);
+  padding: 20px 0;
+}
+
+.sectionHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  color: var(--foreground);
+}
+
+.sectionTitle {
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.optionsList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.allText {
+  color: var(--gray-medium);
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.labelText {
+  font-size: 14px;
+  color: var(--foreground);
+}
+
+/* Mobile Layout Hiding the sidebar*/
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

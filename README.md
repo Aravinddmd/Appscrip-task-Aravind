@@ -6,7 +6,7 @@ I built this using **Next.js 14 (App Router)** and **TypeScript**. Per the requi
 
 ## Live Demo
 
-**[PASTE YOUR VERCEL LINK HERE]**
+https://appscrip-task-aravind.netlify.app/
 
 ---
 

@@ -1,4 +1,3 @@
-/* ProductCard.module.css */
 .card {
   display: flex;
   flex-direction: column;
@@ -10,16 +9,13 @@
   position: relative;
   width: 100%;
 
-  height: 300px; /* ⚠️ FORCE FIXED HEIGHT: Ensures perfect symmetry */
-  background-color: #f6f6f6; /* Gray background from Figma */
+  height: 300px;
+  background-color: #f6f6f6;
   overflow: hidden;
-
-  /* Optional: Smooth corners */
-  /* border-radius: 4px; */
 }
 
 .image {
-  object-fit: contain; /* Ensures the whole image is seen without cropping */
+  object-fit: contain;
   padding: 10px;
   transition: transform 0.3s ease;
 }
@@ -39,8 +35,6 @@
   font-weight: 700;
   color: var(--foreground);
   text-transform: uppercase;
-
-  /* Force 1 line with "..." */
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

@@ -4,6 +4,8 @@ Hi, this is Aravind. This is my submission for the Frontend PLP (Product Listing
 
 I built this using **Next.js 14 (App Router)** and **TypeScript**. Per the requirements, I did not use any CSS frameworks (like Tailwind or Bootstrap), everything is styled with **pure CSS Modules** to keep the bundle size minimal.
 
+_Note_: The fakestore API is not working correctly with netlify, so added mockdata as a fallback data
+
 ## Live Demo
 
 https://appscrip-task-aravind.netlify.app/
